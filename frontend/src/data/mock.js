@@ -170,3 +170,33 @@ export const stats = [
     suffix: "+"
   }
 ];
+
+export const team = [
+  {
+    id: 1,
+    name: "John Doe",
+    role: "CEO & Founder",
+    experience: "15 years",
+    description: "John is a visionary leader with a passion for technology and innovation. He founded Synergy Solutions with the goal of helping businesses succeed in the digital age.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+    skills: ["Leadership", "Strategy", "Business Development"]
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    role: "Chief Technology Officer",
+    experience: "12 years",
+    description: "Jane is a technology expert with a deep understanding of cloud computing, cybersecurity, and AI. She leads our technical team and ensures we deliver cutting-edge solutions.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+    skills: ["Cloud Architecture", "Cybersecurity", "AI & Machine Learning"]
+  },
+  {
+    id: 3,
+    name: "Peter Jones",
+    role: "Lead Developer",
+    experience: "10 years",
+    description: "Peter is a seasoned developer with a talent for creating elegant and efficient code. He specializes in web development and is passionate about building exceptional user experiences.",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+    skills: ["React", "Node.js", "GraphQL"]
+  }
+];
